@@ -25,7 +25,7 @@ class SpecialDocbook extends SpecialPage{
                 $wgOut->addHTML("<li><img src='http://www.clker.com/cliparts/Y/8/k/g/o/u/red-empty-folder-icon.svg' width='2%'/><a href='".$wgServer.$wgScriptPath."/index.php/Special:Docbook_Language?path=".path.$file[$i]."'>".ucfirst($file[$i])."</a></li>");
             }
         }
-$wgOut->addHTML("</ul>");
+		$wgOut->addHTML("</ul>");
 }
 }
 ?>
